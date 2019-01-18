@@ -5,4 +5,7 @@ set expandtab "Spaces instead of tabs
 set hlsearch "Highlight search maches
 
 hi CursorLine cterm=NONE ctermbg=3
-set cursorline
+set cursorline "cursorline
+
+set smarttab
+set softtabstop=2 "tab customisation
