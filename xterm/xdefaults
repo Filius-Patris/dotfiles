@@ -1,0 +1,24 @@
+xterm.vt100.reverseVideo:	on
+xterm*VT100.Translations: 	#override \
+		Ctrl Shift <Key>V:	insert-selection(CLIPBOARD) \n\
+		Ctrl Shift <Key>C:	copy-selection(CLIPBOARD) \n\
+		Ctrl <Key> minus:	smaller-vt-font() \n\
+		Ctrl <Key> plus:	larger-vt-font() \n\
+		Ctrl <Key> 0:		set-vt-font(d)
+
+
+! Fonts ====================================================
+! set font and fontsize
+XTerm*faceName: DejaVu Sans Mono
+XTerm*faceSize: 12
+
+! VT Font Menu: Unreadable
+xterm*faceSize1: 6
+! VT font menu: Tiny
+xterm*faceSize2: 8
+! VT font menu: Medium
+xterm*faceSize3: 10
+! VT font menu: Large
+xterm*faceSize4: 14
+! VT font menu: Huge
+xterm*faceSize5: 20
