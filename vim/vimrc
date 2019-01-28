@@ -1,10 +1,41 @@
+filetype on "Enable filetype detection
+filetype indent on "Enable automatic indentation
+
 set nu rnu "Set hybrid linenumbers
-set autoindent "Auto indentation
 syntax on "Syntax highlighting
 set hlsearch "Highlight search maches
+set incsearch "Autojump to match
+set smartcase "Lower case matches upper, Upper doesn't match lower
+
+set showmode "Show the mode at the bottom
+set showcmd "Show the command Im typing
+
+set encoding=utf-8 "UTF-8 Default (As it just should be)
 
 hi CursorLine cterm=NONE ctermbg=3
 set cursorline "cursorline
 
-set smarttab
-set softtabstop=2 "tab customisation
+set autoindent "Auto indentation
+set smartindent "Language aware indentation
+set tabstop=2 "Two spaces for tabs
+set expandtab "Spaces instead of Tabs
+set softtabstop=2 "Also two spaces for Tabs...? I am confused.
+
+set wrap "Wrap lines
+set wrapmargin=5 "Looks nicer
+set laststatus=2 "Always show statusbar
+set ruler "Position at bottom right
+
+set showmatch "Other parenthesis (or whatever other couple) will be highlighted
+
+set spell spelllang=en_us "Spell checking
+
+set noerrorbells "It just sucks
+set visualbell "But some indication is needed
+
+set scrolloff=5 "Scroll offset of 5
+
+set autoread "Be sensible to outside changes
+
+set wildmenu "Command completion choice
+set wildmode=longest:list,full "Menu display style
