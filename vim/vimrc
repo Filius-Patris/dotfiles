@@ -28,7 +28,8 @@ set ruler "Position at bottom right
 
 set showmatch "Other parenthesis (or whatever other couple) will be highlighted
 
-set spell spelllang=en_us "Spell checking
+set spelllang=en_us "Spell checking (Is enabled by mapping below)
+map ,s :set spell!
 
 set noerrorbells "It just sucks
 set visualbell "But some indication is needed
