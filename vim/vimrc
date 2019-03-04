@@ -17,9 +17,9 @@ set cursorline "cursorline
 
 set autoindent "Auto indentation
 set smartindent "Language aware indentation
-set tabstop=2 "Two spaces for tabs
-set expandtab "Spaces instead of Tabs
-set softtabstop=2 "Also two spaces for Tabs...? I am confused.
+set tabstop=4 "Tabs should appear 4 characters long
+set softtabstop=0 noexpandtab "Tabs (not spaces, but I have them properly aligned)
+set shiftwidth=4 "One level of indentation should be 4 characters long (one tab, remember?)
 
 set wrap "Wrap lines
 set wrapmargin=5 "Looks nicer
