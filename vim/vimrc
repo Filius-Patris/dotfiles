@@ -13,7 +13,7 @@ set showcmd "Show the command Im typing
 set encoding=utf-8 "UTF-8 Default (As it just should be)
 
 hi CursorLine cterm=NONE ctermbg=3
-set cursorline "cursorline
+set nocursorline "cursorline (Temporarily disabled)
 
 set autoindent "Auto indentation
 set smartindent "Language aware indentation
@@ -40,3 +40,6 @@ set autoread "Be sensible to outside changes
 
 set wildmenu "Command completion choice
 set wildmode=longest:list,full "Menu display style
+
+set list "Show whitespace characters
+set listchars=tab:--] "Just show tabs with '---]'
