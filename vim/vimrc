@@ -14,6 +14,8 @@ set encoding=utf-8 "UTF-8 Default (As it just should be)
 
 hi CursorLine cterm=NONE ctermbg=3
 set nocursorline "cursorline (Temporarily disabled)
+hi tooLong cterm=NONE ctermbg=red
+match tooLong /\%>79v.*\%<81v/ "To mark the 80th character red
 
 set autoindent "Auto indentation
 set smartindent "Language aware indentation
@@ -42,4 +44,4 @@ set wildmenu "Command completion choice
 set wildmode=longest:list,full "Menu display style
 
 set list "Show whitespace characters
-set listchars=tab:--] "Just show tabs with '---]'
+set listchars=tab:--],eol:$ "for tab ---] and $ for end of line
