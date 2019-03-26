@@ -1,0 +1,46 @@
+/* * Do not remove the @namespace line -- it's required for correct functioning */
+/* set default namespace to XUL */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#PersonalToolbar { display: none; }
+.tab-label { font-size: 0.8em; }
+
+/* Remove Edit menu (if you already use all the keyboard shortcuts) */
+
+/* #helpMenu, #edit-menu { display: none !important; } */
+
+/* Remove Back button when there's nothing to go Back to */
+
+/* #back-button[disabled="true"] { display: none; } */
+
+/* Remove Forward button when there's nothing to go Forward to */
+
+/* #forward-button[disabled="true"] { display: none; } */
+
+/* Remove Stop button when there's nothing to Stop */
+
+/* #stop-button[disabled="true"] { display: none; } */
+
+/* Remove Home button (never use it) */
+
+/* #home-button { display: none; } */
+
+/* Remove Go button from address bar */
+
+/* #go-button-stack, .search-go-button-stack { display: none !important; } */
+
+/*Remove magnifying glass button from search box*/
+
+/* .search-go-button-stack { display: none !important; } */
+
+/* Eliminate the throbber and its annoying movement: */
+
+/* #throbber-box { display: none !important; } */
+
+/* Show keyword input box when adding a bookmark */
+
+/* #keywordRow { display: -moz-grid-line !important; } */
+
+/* Make the active tab wider */
+
+/* tab[selected="true"] { min-width: 200px !important; } */
