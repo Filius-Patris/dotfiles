@@ -4,6 +4,7 @@
 
 #PersonalToolbar { display: none; }
 .tab-label { font-size: 0.8em; }
+#home-button { display: none; }
 
 /* Remove Edit menu (if you already use all the keyboard shortcuts) */
 
@@ -20,10 +21,6 @@
 /* Remove Stop button when there's nothing to Stop */
 
 /* #stop-button[disabled="true"] { display: none; } */
-
-/* Remove Home button (never use it) */
-
-/* #home-button { display: none; } */
 
 /* Remove Go button from address bar */
 
