@@ -75,7 +75,7 @@ set $ARM = 0
 set $COLOREDPROMPT = 1
 # color the first line of the disassembly - default is green, if you want to change it search for
 # SETCOLOR1STLINE and modify it :-)
-set $SETCOLOR1STLINE = 0
+set $SETCOLOR1STLINE = 1
 # set to 0 to remove display of objectivec messages (default is 1)
 set $SHOWOBJECTIVEC = 1
 # set to 0 to remove display of cpu registers (default is 1)
