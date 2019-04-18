@@ -20,15 +20,18 @@ match tooLong /\%>79v.*\%<81v/ "To mark the 80th character red
 set autoindent "Auto indentation
 set smartindent "Language aware indentation
 set tabstop=4 "Tabs should appear 4 characters long
-set softtabstop=0 noexpandtab "Tabs (not spaces, but I have them properly aligned)
-set shiftwidth=4 "One level of indentation should be 4 characters long (one tab, remember?)
+set softtabstop=0 noexpandtab
+"Tabs (not spaces, but I have them properly aligned)
+set shiftwidth=4
+"One level of indentation should be 4 characters long (one tab, remember?)
 
 set wrap "Wrap lines
 set wrapmargin=5 "Looks nicer
 set laststatus=2 "Always show statusbar
 set ruler "Position at bottom right
 
-set showmatch "Other parenthesis (or whatever other couple) will be highlighted
+set showmatch
+"Other parenthesis (or whatever other couple) will be highlighted
 
 set spelllang=en_us "Spell checking (Is enabled by mapping below)
 map ,s :set spell!
@@ -44,7 +47,8 @@ set wildmenu "Command completion choice
 set wildmode=longest:list,full "Menu display style
 
 set list "Show whitespace characters
-set listchars=tab:--],eol:$ "for tab ---] and $ for end of line
+set listchars=tab:--],eol:$,extends:>,precedes:<
+"for tab ---], $ for end of line and < and > for continuing line in nowarp
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
