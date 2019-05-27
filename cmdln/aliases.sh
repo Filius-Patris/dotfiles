@@ -8,3 +8,9 @@ alias hdmi-off='xrandr --output "eDP-1" --primary --auto --output "HDMI-1" --off
 
 alias datef='date +%F'
 alias datefs='date +%F_%H-%M-%S'
+
+alias ls='ls --color'
+alias rm='rm -v'
+alias cp='cp -v'
+alias mv='mv -v'
+alias mkdir='mkdir -v'
