@@ -15,3 +15,5 @@ alias cp='cp -v'
 alias mv='mv -v'
 alias ls='ls -v --color'
 alias mkdir='mkdir -v'
+
+export ANDROID_HOME=~/Android/Sdk
