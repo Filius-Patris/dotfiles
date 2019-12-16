@@ -17,3 +17,7 @@ alias ls='ls -v --color'
 alias mkdir='mkdir -v'
 
 export ANDROID_HOME=~/Android/Sdk
+
+alias ssha='eval `ssh-agent`; ssh-add'
+
+alias plz='sudo'
